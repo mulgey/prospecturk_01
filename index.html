@@ -1,22 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+        <title>ProspecTurk Renal</title>
+    </head>
+    
+    <body class="bg-info">
+        
+        <!-- Navbar çalışması -->
+        <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <h5 class="text-white h4">PROSPECTURK RENAL</h5>
+            <span class="text-muted">Construction goes on ..</span>
+        </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+        </div>
+
+        <!-- Her eve lazım bir jumbotron -->
+        <div class="jumbotron">
+            <h1 class="display-4 text-center">PROSPECTURK RENAL TOOL</h1>
+            <p class="lead text-center">We plan to make your life easier by a smart calculation tool</p>
+            <hr class="my-4">
+            <p>We are currently building our project, so let's keep our heads down, and keep "brick"ing..!</p>
+            <a class="btn btn-primary" href="./index.html" role="button">Refresh the Blueprint</a>
+          </div>
+
+        <!-- GFR Hesaplayıcı -->
+        <h3 class="text-light text-left ml-2">GFR CALCULATOR</h3>
+
+        <form class="mx-4">
+            <div class="row">
+                <select class="col custom-select">
+                    <option selected>Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                </select>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Age">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Weight (kg)">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Serum creatinin (mg/dL)">
+                </div>
+                <button class="col btn btn-danger" type="submit">Calculate!</button>
+            </div>
+          </form>
 
     <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  </body>
+    
+    </body>
+
 </html>
