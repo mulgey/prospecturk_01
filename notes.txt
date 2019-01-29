@@ -1,0 +1,9 @@
+- Cinsiyete göre serum kreatinini hesapla
+- Serum kreatininine göre yetmezlik düzeyini belirle
+- Etken madde şeması yaparak mongoose üzerinden etken madde ve yetmezlik düzeyine göre uygun dozu belirle
+- Veritabanındaki etken maddelerin listeye loop lanmasını sağla
+
+- Fonksiyonları tek dosyada topla
+- Hata yönetimini hallet
+
+-Görünüşü iyileştir

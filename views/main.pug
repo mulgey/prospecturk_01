@@ -34,7 +34,7 @@ html(lang='en')
           option(selected='') Active Substance
           option(value='1') Ertapenem
           option(value='2') Imipenem
-        select.col.custom-select
+        select.col.custom-select(name='sex')
           option(selected='') Gender
           option(value='1') Male
           option(value='2') Female
@@ -43,7 +43,7 @@ html(lang='en')
         .col
           input.form-control(type='number', placeholder='Weight (kg)', name='weight')
         .col
-          input.form-control(type='number', placeholder='Serum creatinin (mg/dL)', name='screatinin')
+          input.form-control(type='number', min='0', step='0.01', placeholder='Serum creatinin (mg/dL)', name='screatinin')
         button.col.btn.btn-danger(type='submit') Calculate!
     // Optional JavaScript
     // jQuery first, then Popper.js, then Bootstrap JS

@@ -39,6 +39,7 @@ app.use(function(req, res, next) {
   
 // error handler
 // define as the last app.use callback
+/*
 app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
@@ -46,6 +47,7 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
+*/
   
 // listen on port 3000
 app.listen(3000, () => {
