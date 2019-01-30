@@ -7,6 +7,7 @@ const Schema = mongoose.Schema;
 // Şemamız
 const DosesSchema = new Schema({
     activeSubstance: {
+        name: String,
         kidneyFailure: String, // < 15
         severeReduction: String, // 15-29
         moderateSevereReduction: String, // 30-44

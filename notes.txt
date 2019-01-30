@@ -6,4 +6,4 @@
 - Fonksiyonları tek dosyada topla
 - Hata yönetimini hallet
 
--Görünüşü iyileştir
+- Görünüşü iyileştir
