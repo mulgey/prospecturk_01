@@ -11,9 +11,9 @@ const url = "mongodb://localhost:27017/";
 MongoClient.connect(url, function(err, db) {
   if (err) throw err;
   var dbo = db.db("prospectRenal");
-  dbo.collection("drugs").find({}, { projection: { _id: 0, name: 1 } }).toArray(function(err, result) {
+  dbo.collection("drugs").find({}, { projection: { _id: 0} }).toArray(function(err, result) {
     if (err) throw err;
-    console.log(result[1].name);
+    console.log(result[0].kidneyFailure);
     db.close();
   });
 });
